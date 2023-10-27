@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "poc-msal-spfx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pocMsalSpfx/PocMsalSpfxWebPart.js",
+          "manifest": "./src/webparts/pocMsalSpfx/PocMsalSpfxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PocMsalSpfxWebPartStrings": "lib/webparts/pocMsalSpfx/loc/{locale}.js"
+  }
+}

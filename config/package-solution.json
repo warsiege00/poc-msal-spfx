@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "poc-msal-sfpx-client-side-solution",
+    "id": "205d4301-f159-45ad-aa4f-c0175e78d83c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "poc-msal-sfpx description"
+      },
+      "longDescription": {
+        "default": "poc-msal-sfpx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "poc-msal-sfpx Feature",
+        "description": "The feature that activates elements of the poc-msal-sfpx solution.",
+        "id": "2a2f5121-2de9-4ce6-861d-3cf20cff0e4f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/poc-msal-sfpx.sppkg"
+  }
+}

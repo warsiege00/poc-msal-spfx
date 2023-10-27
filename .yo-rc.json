@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "poc-msal-sfpx",
+    "libraryId": "205d4301-f159-45ad-aa4f-c0175e78d83c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "poc-msal-sfpx",
+    "solutionShortDescription": "poc-msal-sfpx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
